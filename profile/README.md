@@ -12,7 +12,7 @@ Nodes operating in collaboration with Polysocket Exhange servers can publish the
 
 ### Why UDP
 
-Polysocket aims to do as little as possible. Adding delivery guarantees or ordered streams is possible on top of UDP. Polysocket focuses on enabling communication between devices as seamless and efficient as possible and robust to changes in the underlaying infrastructure.
+Polysocket aims to do as little as possible. Adding delivery guarantees or ordered streams is possible on top of UDP. Polysocket focuses on enabling seamless, and efficient communication between devices.
 
 ### Why not use X
 
