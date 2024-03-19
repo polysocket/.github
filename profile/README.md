@@ -4,7 +4,7 @@ Polysocket is a protocol and implementation for enabling unordered unreliable pa
 
 ### What is Polysocket
 
-Polysocket is a new type of packet address that can enable two addresses to exchange information whether that's over IPC, local ethernet, private IP networks, and public IP networks.
+Polysocket is a new type of packet address that can enable two addresses to exchange information whether that's over IPC, local ethernet, private IPv4/6 networks, and public IPv4/6 networks.
 
 Polysocket operates using public key cryptography so that nodes may independently generate a polysocket address (the public key) and sign authoritative details on how collaborating nodes might be able to communicate to this address (IPC, IPv4, IPv6.)
 
