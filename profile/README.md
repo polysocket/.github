@@ -12,8 +12,8 @@ Nodes operating in collaboration with Polysocket Exhange servers can publish the
 
 ### Why UDP
 
-Polysocket aims to do as little as possible. Adding delivery guarantees or ordered streams is possible on top of UDP. Polysocket focuses on enabling seamless, and efficient communication between devices.
+Polysocket aims to do as little as possible. Adding delivery guarantees, ordered streams, or encryption is possible on top of UDP semantics. Polysocket focuses on enabling seamless, and efficient communication between devices.
 
 ### Why not use X
 
-A notable alternative to Polysocket is [libp2p](https://libp2p.io/). However, as libp2p implements many more features including streams, identity, broadcast, and data multiplexing, the ability to implement and maintain the libp2p protocol is difficult. Polysocket aims to be more robust and simple by choosing to do less and allowing protocols atop polysocket fill in the gap.
+A notable alternative to Polysocket is [libp2p](https://libp2p.io/). However, as libp2p implements many more features including streams, identity, broadcast, distributed hash tables, and data multiplexing, the ability to implement and maintain the libp2p protocol is difficult. Polysocket aims to be more robust and simple by choosing to do less and allowing protocols atop polysocket fill in the gap.
